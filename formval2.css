@@ -1,0 +1,40 @@
+.fontstyle
+{
+    font-family: 'Courier New';
+    font-weight: bold;
+    text-align: justify;
+}
+
+fieldset
+{
+    margin-left: 35%;
+    margin-top: 5%;
+    margin-right: 35%;
+    padding-top: 40px;
+    
+}
+
+.loginn
+{
+    margin-left: 126px;
+}
+
+.passwordd
+{
+    margin-left: 97px;
+}
+
+.cpasss
+{
+    margin-left: 20px;
+}
+
+.genderr
+{
+    margin-left: 116px;
+}
+
+.emaill
+{
+    margin-left: 126px;
+}

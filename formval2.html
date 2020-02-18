@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Create a New Event</title>
+    <script src="formval2.js"></script>
+    <link rel="stylesheet" href="formval2.css">
+</head>
+
+
+<body>  
+    <fieldset>
+    <div class="fontstyle">
+        <form>
+            <div class="form">
+                <div class="loginx">
+                    <label for="login">Login</label>
+                    <input type="text" id="login" class="loginn" required>
+                </div>
+                    <br>
+                <div class="passwordx">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="passwordd" required>
+                    <span id="passmeter"></span>
+                </div>
+                    <br>
+                <div class="cpassx">
+                    <label for="confirmpass">Confirm Password</label>
+                    <input type="password" id="cpass" class="cpasss" required>
+                </div>
+                    <br>
+                <div class="genderx">
+                    <label for="gender">Gender</label>
+                    <select id="gender" class="genderr" required>
+                        <option value="none" disabled selected>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                    <br>
+                <div class="emailx">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="emaill" required>
+                </div>
+                    <br>
+                <div class="register">
+                    <button onclick="register()" type="submit" class="registerr">Register</button>
+                </div>
+                <div class="notifs">
+                        <h4 id="notif1"></h4>
+                        <h4 id="notif2"></h4>
+                </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</fieldset>
+</fieldset>
+    </fieldset>
+</body>
+
+</html>
